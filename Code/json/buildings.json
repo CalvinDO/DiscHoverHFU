@@ -1,0 +1,1186 @@
+[
+    {
+        "name": "ABau",
+        "phi": 48.051515,
+        "theta": 8.207635,
+        "description": "",
+        "image": "Code/media/textures/ABau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "Bibliothek",
+                "description": "",
+                "image": "Code/media/textures/ABau/bib.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Ohrstöpsel",
+                        "description": "Ruhiges Lernen!",
+                        "sound": "",
+                        "phi": 168.6,
+                        "theta": 3.6,
+                        "tolerance": 2
+                    },
+                    {
+                        "name": "BOSS-Bücherverleih",
+                        "description": "",
+                        "sound": "",
+                        "phi": 43,
+                        "theta": -10,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Bücher",
+                        "description": "",
+                        "sound": "",
+                        "phi": 354,
+                        "theta": 1.5,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Analoger Bücherverleih",
+                        "description": "",
+                        "sound": "",
+                        "phi": 250,
+                        "theta": 1.5,
+                        "tolerance": 15
+                    },
+                    {
+                        "name": "Geheimer Lichtschalter",
+                        "description": "Kann sogar das Licht ausschalten!",
+                        "sound": "",
+                        "phi": 305.38650480472916,
+                        "theta": 3.7242256683503663,
+                        "tolerance": 0.4
+                    },
+                    {
+                        "name": "Lernstation",
+                        "description": "",
+                        "sound": "",
+                        "phi": 88,
+                        "theta": 0,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Gruppen - Lerntisch",
+                        "description": "",
+                        "sound": "",
+                        "phi": 232.8,
+                        "theta": 3.15,
+                        "tolerance": 3
+                    }
+                ]
+            },
+            {
+                "name": "Cafete",
+                "description": "",
+                "image": "Code/media/textures/ABau/Cafete.jpg",
+                "ambienceSound": "background.wav",
+                "clickRegions": [
+                    {
+                        "name": "Frischluftbänke",
+                        "description": "Schön zum Sitzen",
+                        "sound": "outdoor.wav",
+                        "phi": 313,
+                        "theta": 0,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Laptopzone-Nord",
+                        "description": "...",
+                        "sound": "Laptopzone-Nord.wav",
+                        "phi": 201,
+                        "theta": 6,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Laptopzone-Süd",
+                        "description": "...",
+                        "sound": "Laptopzone-Süd.wav",
+                        "phi": 33,
+                        "theta": 6,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Legendäre Kaffeemaschine",
+                        "description": "Leckerer und schneller Kaffee!",
+                        "sound": "coffee.mp3",
+                        "phi": 130,
+                        "theta": 4.5,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "HFU-ECard Bezahlgerät",
+                        "description": "",
+                        "sound": "cardAccept.wav",
+                        "phi": 159.89449005056,
+                        "theta": 2.0053522829578854,
+                        "tolerance": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sicherrungstechnik",
+                "description": "",
+                "image": "Code/media/textures/ABau/Sicherrungstechnik.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Safe",
+                        "description": "",
+                        "sound": "",
+                        "phi": 13.074055048286027,
+                        "theta": -1.432394487827062,
+                        "tolerance": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BBau",
+        "phi": 48.051913,
+        "theta": 8.208092,
+        "description": "",
+        "image": "Code/media/textures/BBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "LanguageCenter",
+                "description": "",
+                "image": "Code/media/textures/BBau/LanguageCenter.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Jahresplan",
+                        "description": "",
+                        "sound": "",
+                        "phi": 183.48973389064622,
+                        "theta": 4.010704565915758,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Europakarte",
+                        "description": "",
+                        "sound": "",
+                        "phi": 331.96433324764917,
+                        "theta": 8.021409131831524,
+                        "tolerance": 10
+                    }
+                ]
+            },
+            {
+                "name": "Mikrolabor",
+                "description": "",
+                "image": "Code/media/textures/BBau/Mikrolabor.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Erlenmayerkolben",
+                        "description": "",
+                        "sound": "",
+                        "phi": 130.451872631983,
+                        "theta": -6.1592962976563586,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Dekontaminationsofen",
+                        "description": "",
+                        "sound": "",
+                        "phi": 37.99771913647743,
+                        "theta": -10.599719209920224,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Petrischale",
+                        "description": "",
+                        "sound": "",
+                        "phi": 354.02320836018646,
+                        "theta": -12.032113697747315,
+                        "tolerance": 2
+                    }
+                ]
+            },
+            {
+                "name": "Mikrolabor2",
+                "description": "",
+                "image": "Code/media/textures/BBau/Mikrolabor2.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Digitalmikroskop",
+                        "description": "",
+                        "sound": "",
+                        "phi": 151.5473368121028,
+                        "theta": -6.159296297656331,
+                        "tolerance": 4.5
+                    },
+                    {
+                        "name": "Analysegerät",
+                        "description": "",
+                        "sound": "",
+                        "phi": 248.2339647404295,
+                        "theta": -4.010704565915765,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Oszilloskop",
+                        "description": "",
+                        "sound": "",
+                        "phi": 114.59155902616445,
+                        "theta": -3.580986219567636,
+                        "tolerance": 10
+                    }
+                ]
+            },
+            {
+                "name": "MobileSystemsLab",
+                "description": "",
+                "image": "Code/media/textures/BBau/MobileSystemsLab.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Mini-Androidroboter",
+                        "description": "",
+                        "sound": "",
+                        "phi": 128.38181131836402,
+                        "theta": -15.515486632992975,
+                        "tolerance": 3.5
+                    },
+                    {
+                        "name": "Beamer",
+                        "description": "",
+                        "sound": "",
+                        "phi": 348.9312972346711,
+                        "theta": 51.56620156177412,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Projektplakate",
+                        "description": "",
+                        "sound": "",
+                        "phi": 246.98407491044503,
+                        "theta": 1.2891550390443784,
+                        "tolerance": 7
+                    },
+                    {
+                        "name": "Drohne",
+                        "description": "",
+                        "sound": "",
+                        "phi": 62.30916022047736,
+                        "theta": -5.110993991716644,
+                        "tolerance": 4.3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CBau",
+        "phi": 48.051152,
+        "theta": 8.208827,
+        "description": "",
+        "image": "Code/media/textures/CBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "InformatikLabor",
+                "description": "",
+                "image": "Code/media/textures/CBau/InformatikLabor.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Nerd",
+                        "description": "",
+                        "sound": "",
+                        "phi": 155,
+                        "theta": -16,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Anderer Nerd",
+                        "description": "",
+                        "sound": "",
+                        "phi": 219,
+                        "theta": -10.7,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "3D-Drucker",
+                        "description": "",
+                        "sound": "",
+                        "phi": 37.4,
+                        "theta": -6.6,
+                        "tolerance": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DBau",
+        "phi": 48.05084,
+        "theta": 8.207999,
+        "description": "",
+        "image": "Code/media/textures/DBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": []
+    },
+    {
+        "name": "EBau",
+        "phi": 48.050188,
+        "theta": 8.20796,
+        "description": "",
+        "image": "Code/media/textures/EBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "InternationalCenter",
+                "description": "",
+                "image": "Code/media/textures/EBau/InternationalCenter.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Weltkarte",
+                        "description": "",
+                        "sound": "",
+                        "phi": 224.63872090034312,
+                        "theta": -4.726901809829292,
+                        "tolerance": 20
+                    },
+                    {
+                        "name": "Internationale Studenten",
+                        "description": "",
+                        "sound": "",
+                        "phi": 292.8206985209109,
+                        "theta": 0.1432394487827154,
+                        "tolerance": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GBau",
+        "phi": 48.050295,
+        "theta": 8.209589,
+        "description": "",
+        "image": "Code/media/textures/GBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "Hoersaal",
+                "description": "",
+                "image": "Code/media/textures/GBau/Hoersaal.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Traditioneller Overheadprojektor",
+                        "description": "",
+                        "sound": "",
+                        "phi": 115.91997927426962,
+                        "theta": -0.4297183463481166,
+                        "tolerance": 4
+                    }
+                ]
+            },
+            {
+                "name": "MacPool",
+                "description": "",
+                "image": "Code/media/textures/GBau/MacPool.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Mac",
+                        "description": "",
+                        "sound": "",
+                        "phi": 356.88799733584045,
+                        "theta": -20.05352282957876,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Viele Macs",
+                        "description": "",
+                        "sound": "",
+                        "phi": 236.67083459809027,
+                        "theta": -12.175353146529991,
+                        "tolerance": 6
+                    }
+                ]
+            },
+            {
+                "name": "UsabilityLab",
+                "description": "",
+                "image": "Code/media/textures/GBau/UsabilityLab.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Mikrowelle",
+                        "description": "",
+                        "sound": "",
+                        "phi": 172.21308264587265,
+                        "theta": -2.864788975654123,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Gemälde",
+                        "description": "",
+                        "sound": "",
+                        "phi": 103.70536091867918,
+                        "theta": 3.580986219567645,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Neumodischer Tisch",
+                        "description": "",
+                        "sound": "",
+                        "phi": 190.8,
+                        "theta": -31.65,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "   ",
+                        "description": "",
+                        "sound": "",
+                        "phi": 61.592962976563435,
+                        "theta": -29.22084755167199,
+                        "tolerance": 30
+                    }
+                ]
+            },
+            {
+                "name": "UsabilityLab2",
+                "description": "",
+                "image": "Code/media/textures/GBau/UsabilityLab2.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Projektion",
+                        "description": "",
+                        "sound": "",
+                        "phi": 299.9826709600463,
+                        "theta": 11.74563480018187,
+                        "tolerance": 14
+                    },
+                    {
+                        "name": "Eye-Tracker",
+                        "description": "",
+                        "sound": "",
+                        "phi": 273.6266123840284,
+                        "theta": -5.443099053742816,
+                        "tolerance": 8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HBau",
+        "phi": 48.050308,
+        "theta": 8.211125,
+        "description": "",
+        "image": "Code/media/textures/HBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "ServiceRoboticLab",
+                "description": "",
+                "image": "Code/media/textures/HBau/ServiceRoboticLab.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Androidroboter",
+                        "description": "",
+                        "sound": "",
+                        "phi": 36,
+                        "theta": -3,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Greifarmroboter",
+                        "description": "",
+                        "sound": "",
+                        "phi": 67.46578037665441,
+                        "theta": -4.010704565915764,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Steckplatine",
+                        "description": "",
+                        "sound": "",
+                        "phi": 250.6690353697348,
+                        "theta": -2.4350706293059905,
+                        "tolerance": 9
+                    }
+                ]
+            },
+            {
+                "name": "ServiceRoboticLab2",
+                "description": "",
+                "image": "Code/media/textures/HBau/ServiceRoboticLab2.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Tischroboter",
+                        "description": "",
+                        "sound": "",
+                        "phi": 246.94480970138486,
+                        "theta": -12.318592595312701,
+                        "tolerance": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "IBau",
+        "phi": 48.049920,
+        "theta": 8.210902,
+        "description": "",
+        "image": "Code/media/textures/IBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "016",
+                "description": "",
+                "image": "Code/media/textures/HBau/016.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Beamer",
+                        "description": "",
+                        "sound": "",
+                        "phi": 210.58743353217778,
+                        "theta": 53.903658906758096,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Tafel",
+                        "description": "",
+                        "sound": "",
+                        "phi": 182,
+                        "theta": -3,
+                        "tolerance": 20
+                    },
+                    {
+                        "name": "Dittlers Laptop",
+                        "description": "Mit ultraintensiver Grafikkarte",
+                        "sound": "",
+                        "phi": 144.5,
+                        "theta": -4.4,
+                        "tolerance": 2
+                    },
+                    {
+                        "name": "Dittlers legendäre Wasserflasche",
+                        "description": "Gefüllt mit sauberem Sprudel der Furtwanger Quellen ",
+                        "sound": "",
+                        "phi": 140.41,
+                        "theta": -3.151,
+                        "tolerance": 1
+                    },
+                    {
+                        "name": "Hoffnungsvolle Uhr",
+                        "description": "",
+                        "sound": "",
+                        "phi": 73.62507667431072,
+                        "theta": 24.350706293059982,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Aufklappbare Tische",
+                        "description": "",
+                        "sound": "",
+                        "phi": 173.28046781801368,
+                        "theta": -68.181977620568,
+                        "tolerance": 30
+                    }
+                ]
+            },
+            {
+                "name": "213",
+                "description": "",
+                "image": "Code/media/textures/HBau/213.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Dozent",
+                        "description": "",
+                        "sound": "",
+                        "phi": 140.76511294433953,
+                        "theta": -21.342677868623174,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Mosaikgemälde",
+                        "description": "",
+                        "sound": "",
+                        "phi": 291.34903882402415,
+                        "theta": 5.7295779513082294,
+                        "tolerance": 20
+                    },
+                    {
+                        "name": "Pinwand",
+                        "description": "",
+                        "sound": "",
+                        "phi": 67.5050455857147,
+                        "theta": -2.4350706293059923,
+                        "tolerance": 10
+                    }
+                ]
+            },
+            {
+                "name": "220",
+                "description": "",
+                "image": "Code/media/textures/HBau/220.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Großhausberg",
+                        "description": "",
+                        "sound": "",
+                        "phi": 94.10831785023763,
+                        "theta": 20.196762278361525,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Windows-Startscreen",
+                        "description": "",
+                        "sound": "",
+                        "phi": 21.91563566375395,
+                        "theta": -23.77774849792917,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Whiteboard",
+                        "description": "",
+                        "sound": "",
+                        "phi": 24.63718519062531,
+                        "theta": 4.726901809829292,
+                        "tolerance": 12
+                    }
+                ]
+            },
+            {
+                "name": "GLF",
+                "description": "",
+                "image": "Code/media/textures/HBau/GLF.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Broadcast-Kamera",
+                        "description": "",
+                        "sound": "",
+                        "phi": 93.78,
+                        "theta": -9,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Broadcast-Kamera mit Bodenplatten-Stativ",
+                        "description": "",
+                        "sound": "",
+                        "phi": 324.7,
+                        "theta": -8.45,
+                        "tolerance": 6
+                    },
+                    {
+                        "name": "TN-Panel",
+                        "description": "",
+                        "sound": "",
+                        "phi": 103,
+                        "theta": 2.14,
+                        "tolerance": 12
+                    },
+                    {
+                        "name": "Scheinwerfer",
+                        "description": "",
+                        "sound": "",
+                        "phi": 19,
+                        "theta": 27.5,
+                        "tolerance": 6
+                    },
+                    {
+                        "name": "Lautsprecher",
+                        "description": "",
+                        "sound": "",
+                        "phi": 120.36,
+                        "theta": 1.86,
+                        "tolerance": 6
+                    }
+                ]
+            },
+            {
+                "name": "MediaSynthesisLab",
+                "description": "",
+                "image": "Code/media/textures/HBau/MediaSynthesisLab.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Scheinwerfer",
+                        "description": "Scheinwerfer erzeugen Licht, um bessere Kamerabilder...",
+                        "sound": "",
+                        "phi": 306,
+                        "theta": 2,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Fernsehkamera",
+                        "description": "",
+                        "sound": "",
+                        "phi": 3.4,
+                        "theta": -6,
+                        "tolerance": 2.5
+                    },
+                    {
+                        "name": "Nachrichtensprecher",
+                        "description": "",
+                        "sound": "",
+                        "phi": 184.2,
+                        "theta": -7.3,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Greenscreen",
+                        "description": "",
+                        "sound": "",
+                        "phi": 184.2,
+                        "theta": -7.3,
+                        "tolerance": 50
+                    },
+                    {
+                        "name": "360° Lautsprecher",
+                        "description": "",
+                        "sound": "",
+                        "phi": 111.29,
+                        "theta": 43.11,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Kontrollpult",
+                        "description": "",
+                        "sound": "",
+                        "phi": 42.398876839680916,
+                        "theta": -3.867465117133054,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Reflektor",
+                        "description": "",
+                        "sound": "",
+                        "phi": 92.81916281119344,
+                        "theta": -12.605071492878112,
+                        "tolerance": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LBau",
+        "phi": 48.052925,
+        "theta": 8.205230,
+        "description": "",
+        "image": "Code/media/textures/LBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": []
+    },
+    {
+        "name": "MBau",
+        "phi": 48.053540,
+        "theta": 8.204533,
+        "description": "",
+        "image": "Code/media/textures/MBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": []
+    },
+    {
+        "name": "NBau",
+        "phi": 48.055620,
+        "theta": 8.203425,
+        "description": "",
+        "image": "Code/media/textures/NBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "Studio",
+                "description": "",
+                "image": "Code/media/textures/NBau/Studio.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Kamera-Dummy",
+                        "description": "",
+                        "sound": "",
+                        "phi": 280.7885,
+                        "theta": 3.7242,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Teleobjektiv",
+                        "description": "",
+                        "sound": "",
+                        "phi": 113.62814809374626,
+                        "theta": -0.5729577951308221,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Scheinwerfer mit Deckenanbringung",
+                        "description": "",
+                        "sound": "",
+                        "phi": 327.9143634726739,
+                        "theta": 36.81253833715537,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Electronic News Gathering Camera",
+                        "description": "",
+                        "sound": "",
+                        "phi": 242.93410513546937,
+                        "theta": 1.2891550390443651,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Stabmikrofon",
+                        "description": "",
+                        "sound": "",
+                        "phi": 319.03351764814624,
+                        "theta": 5.443099053742822,
+                        "tolerance": 3
+                    },
+                    {
+                        "name": "Medienrezipient",
+                        "description": "",
+                        "sound": "",
+                        "phi": 42.54211628846379,
+                        "theta": -6.445775195221757,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Medienkonsument",
+                        "description": "",
+                        "sound": "",
+                        "phi": 89.52465548919106,
+                        "theta": -7.16197243913529,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Cardioidförmige Schallpegelverteilung",
+                        "description": "",
+                        "sound": "",
+                        "phi": 187.396464216839,
+                        "theta": 1.8621128341751685,
+                        "tolerance": 1
+                    },
+                    {
+                        "name": "Mischpult",
+                        "description": "",
+                        "sound": "",
+                        "phi": 350.8326752779069,
+                        "theta": 0.42971834634812994,
+                        "tolerance": 2
+                    },
+                    {
+                        "name": "High-End Soundanlage",
+                        "description": "",
+                        "sound": "",
+                        "phi": 115.16451682129535,
+                        "theta": 19.76704393201338,
+                        "tolerance": 2
+                    },
+                    {
+                        "name": "Kommandozentrale",
+                        "description": "",
+                        "sound": "",
+                        "phi": 333.8264460818254,
+                        "theta": 10.170000863572099,
+                        "tolerance": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OBau",
+        "phi": 48.058784,
+        "theta": 8.202126,
+        "description": "",
+        "image": "Code/media/textures/OBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "Gefahrstofflabor",
+                "description": "",
+                "image": "Code/media/textures/OBau/Gefahrstofflabor.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Laborwaage",
+                        "description": "",
+                        "sound": "",
+                        "phi": 165.2197934771243,
+                        "theta": -3.437746770784941,
+                        "tolerance": 2
+                    },
+                    {
+                        "name": "Waschbecken",
+                        "description": "",
+                        "sound": "",
+                        "phi": 329.776476306849,
+                        "theta": -10.170000863572099,
+                        "tolerance": 5
+                    },
+                    {
+                        "name": "Schutzhaube",
+                        "description": "",
+                        "sound": "",
+                        "phi": 84.22479588423099,
+                        "theta": -16.615776058793877,
+                        "tolerance": 15
+                    },
+                    {
+                        "name": "Thermo-Schutzhaube",
+                        "description": "",
+                        "sound": "",
+                        "phi": 38.531411722548015,
+                        "theta": -5.307888029396928,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Abzugshaube",
+                        "description": "",
+                        "sound": "",
+                        "phi": 272.48069679376664,
+                        "theta": -7.3052118879179915,
+                        "tolerance": 5
+                    }
+                ]
+            },
+            {
+                "name": "LivingLab",
+                "description": "",
+                "image": "Code/media/textures/OBau/LivingLab.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Rollator",
+                        "description": "",
+                        "sound": "",
+                        "phi": 258.26072615521826,
+                        "theta": -15.756339366097645,
+                        "tolerance": 8
+                    },
+                    {
+                        "name": "Home-TV",
+                        "description": "",
+                        "sound": "",
+                        "phi": 316.0254892237092,
+                        "theta": -9.31056417087588,
+                        "tolerance": 12
+                    },
+                    {
+                        "name": "Sofa",
+                        "description": "",
+                        "sound": "",
+                        "phi": 150.72716532846698,
+                        "theta": -28.6478897565412,
+                        "tolerance": 20
+                    },
+                    {
+                        "name": "Küche",
+                        "description": "",
+                        "sound": "",
+                        "phi": 94.29082250808102,
+                        "theta": 0.7161972439135481,
+                        "tolerance": 17
+                    },
+                    {
+                        "name": "Smarthome Bedienpanel",
+                        "description": "",
+                        "sound": "",
+                        "phi": 5.76884316036859,
+                        "theta": 0.1432394487827219,
+                        "tolerance": 3
+                    }
+                ]
+            },
+            {
+                "name": "LivingLabBad",
+                "description": "",
+                "image": "Code/media/textures/OBau/LivingLabBad.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Toilette",
+                        "description": "",
+                        "sound": "",
+                        "phi": 21.199438419840458,
+                        "theta": -32.51535487367419,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Waschbecken",
+                        "description": "",
+                        "sound": "",
+                        "phi": 277.5980517408839,
+                        "theta": -32.3721154248915,
+                        "tolerance": 15
+                    },
+                    {
+                        "name": "Spiegel",
+                        "description": "",
+                        "sound": "",
+                        "phi": 277.06435915481336,
+                        "theta": 1.5756339366097725,
+                        "tolerance": 10
+                    },
+                    {
+                        "name": "Badewanne",
+                        "description": "",
+                        "sound": "",
+                        "phi": 202.2933668902409,
+                        "theta": -28.074931961410346,
+                        "tolerance": 22
+                    }
+                ]
+            },
+            {
+                "name": "LivingLabFlur",
+                "description": "",
+                "image": "Code/media/textures/OBau/LivingLabFlur.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Stimmungsanzeige",
+                        "description": "",
+                        "sound": "",
+                        "phi": 41.64341438670664,
+                        "theta": -8.88084582452776,
+                        "tolerance": 20
+                    }
+                ]
+            },
+            {
+                "name": "LivingLabSchlaf",
+                "description": "",
+                "image": "Code/media/textures/OBau/LivingLabSchlaf.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Bett",
+                        "description": "",
+                        "sound": "",
+                        "phi": 312.301263555359,
+                        "theta": -31.942397078543376,
+                        "tolerance": 20
+                    },
+                    {
+                        "name": "Nachttisch",
+                        "description": "",
+                        "sound": "",
+                        "phi": 334.97236167208706,
+                        "theta": -18.907607239317095,
+                        "tolerance": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UBau",
+        "phi": 48.051124,
+        "theta": 8.207683,
+        "description": "",
+        "image": "Code/media/textures/UBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": []
+    },
+    {
+        "name": "ZBau",
+        "phi": 48.050772,
+        "theta": 8.208339,
+        "description": "",
+        "image": "Code/media/textures/ZBau/Vorschau.jpg",
+        "ambienceSound": "",
+        "rooms": [
+            {
+                "name": "Mensa",
+                "description": "",
+                "image": "Code/media/textures/ZBau/Mensa.jpg",
+                "ambienceSound": "",
+                "clickRegions": [
+                    {
+                        "name": "Gutes Essen 1",
+                        "description": "",
+                        "sound": "",
+                        "phi": 293.1071774184767,
+                        "theta": 17.76169164,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Gutes Essen 2",
+                        "description": "",
+                        "sound": "",
+                        "phi": 281.3615426182947,
+                        "theta": 17.61845220027,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Kinderstuhl",
+                        "description": "",
+                        "sound": "",
+                        "phi": 155.41480192923524,
+                        "theta": -25.066903536973,
+                        "tolerance": 7
+                    },
+                    {
+                        "name": "Lauschige Essecke",
+                        "description": "",
+                        "sound": "",
+                        "phi": 88.95169769406073,
+                        "theta": -32.801833771239565,
+                        "tolerance": 7
+                    },
+                    {
+                        "name": "Penthouse Esslounge",
+                        "description": "",
+                        "sound": "",
+                        "phi": 220.7712557832101,
+                        "theta": 9.167324722093165,
+                        "tolerance": 7
+                    },
+                    {
+                        "name": "Mittleres Essplateau",
+                        "description": "",
+                        "sound": "",
+                        "phi": 2.617575287149009,
+                        "theta": -2.578310078088678,
+                        "tolerance": 6
+                    },
+                    {
+                        "name": "Mittleres Essplateau",
+                        "description": "",
+                        "sound": "",
+                        "phi": 88.95169769406073,
+                        "theta": -32.801833771239565,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Panorama Essausguck",
+                        "description": "",
+                        "sound": "",
+                        "phi": 174.64815327517846,
+                        "theta": -0.7161972439135389,
+                        "tolerance": 4
+                    },
+                    {
+                        "name": "Suppenbar",
+                        "description": "",
+                        "sound": "",
+                        "phi": 204.58519807076402,
+                        "theta": 6.510197863620636e-15,
+                        "tolerance": 4
+                    }
+                ]
+            }
+        ]
+    }
+]

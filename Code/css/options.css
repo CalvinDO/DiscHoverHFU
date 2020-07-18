@@ -1,0 +1,288 @@
+body {
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    font: 1rem/1.4 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+.logo {
+    background-image: url(images/logo.png);
+    opacity: 47%;
+    position: absolute;
+    bottom: -43px;
+    left: -40px;
+    width: 295px;
+    height: 275px;
+    background-repeat: no-repeat;
+  }
+
+  .options {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/gear.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+}
+  
+  
+  .options:hover{
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 90%;
+    background-image: url(images/gear.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+    box-shadow: -1px 10px 15px grey;
+
+  }
+
+  .options>h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: lighter;
+    position: absolute;
+    left: 30px;
+    top: -27px;
+}
+
+.optionen-menu {
+    position: relative;
+    top: -40px;
+}
+
+.home {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/browser2.png);
+    background-size: 80px;
+    background-position: 11px 10px;
+    background-repeat: no-repeat;
+}
+  
+  .home:hover {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/browser2.png);
+    background-size: 80px;
+    background-position: 11px 10px;
+    background-repeat: no-repeat;
+    box-shadow: -1px 10px 15px grey;
+
+  }
+
+
+
+  .audio {
+    background-color: #1990ff;
+    position: absolute;
+    top: 160px;
+    left: 30%;
+    width: 250px;
+    height: 60px;
+    opacity: 47%;
+}
+
+img {
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    left: 360px;
+    opacity: 100%;
+}
+img:hover {
+    position: absolute;
+    top: -1px;
+    width: 105px;
+    left: 360px;
+    opacity: 100%;
+}
+
+img#zwei {
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    left: 300px;
+    opacity: 75%;
+}
+img#zwei:hover {
+    position: absolute;
+    top: -1px;
+    width: 105px;
+    left: 300px;
+    opacity: 100%;
+}
+
+img#drei {
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    left: 240px;
+    opacity: 50%;
+}
+img#drei:hover {
+    position: absolute;
+    top: -1px;
+    width: 105px;
+    left: 240px;
+    opacity: 75%;
+}
+
+img#vier {
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    left: 180px;
+    opacity: 25%;
+}
+img#vier:hover {
+    position: absolute;
+    top: -1px;
+    width: 105px;
+    left: 180px;
+    opacity: 50%;
+}
+
+
+div.lautstärke {
+    background-color: #1990ff;
+    position: absolute;
+    top: 230px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 47%;
+}
+
+div.lautstärke:hover {
+    background-color: #1990ff;
+    position: absolute;
+    top: 230px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 90%;
+}
+
+.video {
+    background-color: #384fff;
+    position: absolute;
+    top: 330px;
+    left: 30%;
+    width: 250px;
+    height: 60px;
+    opacity: 47%;
+}
+
+div.vollbild {
+    background-color: #384fff;
+    position: absolute;
+    top: 405px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 47%;
+}
+
+div.vollbild:hover {
+    background-color: #384fff;
+    position: absolute;
+    top: 405px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 90%;
+}
+
+div.brightness {
+    background-color: #384fff;
+    position: absolute;
+    top: 475px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 47%;
+}
+
+div.brightness:hover {
+    background-color: #384fff;
+    position: absolute;
+    top: 475px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 90%;
+}
+
+.sprache_div {
+    background-color: #668fff;
+    position: absolute;
+    top: 580px;
+    left: 30%;
+    width: 250px;
+    height: 60px;
+    opacity: 47%;
+}
+
+
+
+div.sprache {
+    background-color: #668fff;
+    position: absolute;
+    top: 653px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 47%;
+}
+
+div.sprache:hover {
+    background-color: #668fff;
+    position: absolute;
+    top: 653px;
+    left: 35%;
+    width: 460px;
+    height: 60px;
+    opacity: 90%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: lighter;
+    margin-left: 29px;
+    top: -38px;
+    position: relative;
+}
+
+h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
+    margin-left: 29px;
+    top: -32px;
+    position: relative;
+}
+

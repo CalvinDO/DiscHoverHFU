@@ -1,0 +1,382 @@
+body {
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    font: 1rem/1.4 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+  .logo {
+    background-image: url(images/logo.png);
+    opacity: 47%;
+    position: absolute;
+    bottom: -43px;
+    right: -30px;
+    width: 295px;
+    height: 275px;
+    background-repeat: no-repeat;
+  }
+
+  .euqipment_menu {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/gear.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+}
+
+  .euqipment_menu:hover{
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 90%;
+    background-image: url(images/gear.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+    box-shadow: -5px 10px 15px grey;
+  }
+
+  .euqipment_menu>h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: lighter;
+    position: absolute;
+    left: 30px;
+    top: -27px;
+}
+
+.home {
+  background-color: #1990ff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 70px;
+  opacity: 67%;
+  background-image: url(images/browser2.png);
+  background-size: 80px;
+  background-position: 11px 10px;
+  background-repeat: no-repeat;
+}
+  
+  .home:hover {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    opacity: 90%;
+    background-image: url(images/browser2.png);
+    background-size: 80px;
+    background-position: 11px 10px;
+    background-repeat: no-repeat;
+    box-shadow: -1px 10px 15px grey;
+}
+
+  .footer {
+    background-color: #1990ff;
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    opacity: 67%;
+    left: 0px;
+    bottom: 0px;
+    z-index:1 ;
+}
+
+.footer:hover {
+    background-color: #1990ff;
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    opacity: 90%;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer>h1 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 43px;
+  font-weight: lighter;
+  position: absolute;
+  bottom: -22px;
+  left: 29px;
+}
+
+img#gps {
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  width: 100px;
+  height: auto;
+}
+
+
+.carousel_buildings {
+  position: absolute;
+  width: 80%;
+  height: 400px;
+  top: -150px;
+}
+
+
+.build_gross{
+  position: relative;
+  background-color: #1990ff;
+  width: 220px;
+  height: 220px;
+  top:50%;
+  left: 50%;
+}
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: lighter;
+    margin-left: 29px;
+    bottom: 85px;
+    left:25px;
+    position: relative;
+}
+img#gross{
+  position: relative;
+  top:10px;
+  left:10px;
+  width:200px;
+  height: auto;
+  opacity: 80%;
+}
+
+img#gross:hover{
+  position: relative;
+  top:10px;
+  left:10px;
+  width:200px;
+  height: auto;
+  opacity: 100%;
+
+}
+
+.build_mittel {
+  position: relative;
+  background-color: #1990ff;
+  width: 180px;
+  height: 180px;
+  top: 5%;
+  left: 34%;
+}
+h3 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: 50px;
+  left: 25px;
+  position: relative;
+}
+img#mittel {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 160px;
+  height: auto;
+  opacity: 80%;
+}
+
+img#mittel:hover {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 160px;
+  height: auto;
+  opacity: 100%;
+}
+
+.build_klein {
+  position: relative;
+  background-color: #1990ff;
+  width: 130px;
+  height: 130px;
+  top: -28%;
+  left: 21%;
+}
+
+.build_klein:hover {
+  position: relative;
+  background-color: #1990ff;
+  width: 130px;
+  height: 130px;
+  top: -28%;
+  left: 21%;
+  opacity: 80%;
+}
+h4 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: -55px;
+  left: 20px;
+  position: absolute;
+}
+
+
+.carousel_rooms {
+  position: absolute;
+  width: 70%;
+  height: 200px;
+  top: -80px;
+}
+
+.room_gross {
+  position: absolute;
+  background-color: #8579ff;
+  width: 223px;
+  height: 70px;
+  top: 182%;
+  left: 57%;
+  opacity: 70%;
+}
+h2#text_gross {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: 11px;
+  left: 2px;
+  position: relative;
+}
+
+
+.room_mittel {
+  position: absolute;
+  background-color: #8579ff;
+  width: 175px;
+  height: 60px;
+  top: 182%;
+  left: 39%;
+  opacity: 70%;
+}
+h2#text_mittel {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: 0px;
+  left: 2px;
+  position: relative;
+}
+
+
+.room_klein {
+  position: absolute;
+  background-color: #8579ff;
+  width: 129px;
+  height: 50px;
+  top: 182%;
+  left: 24%;
+  opacity: 70%;
+}
+
+h2#text_klein {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: -4px;
+  left: 2px;
+  position: relative;
+}
+
+.equipment {
+  position: absolute;
+  background-color: #2419ff;
+  width: 190px;
+  height: 60px;
+  top: 480px;
+  left: 781px;
+  opacity: 70%;
+}
+
+h2#equip {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: 2px;
+  left: 44px;
+  position: relative;
+}
+
+
+.description {
+  position: absolute;
+  top: 481px;
+  background-color: #2419ff;
+  opacity: 70%;
+  width: 400px;
+  left: 340px;
+}
+
+h2#descrip {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 29px;
+  bottom: 2px;
+  left: 4px;
+  position: relative;
+}
+
+p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: -14px;
+  bottom: 2px;
+  left: 44px;
+  position: relative;
+  margin-right: 70px;
+}
+
+.lower_section {
+  position: absolute;
+  top: -110px;
+  left: -150px;
+}
+
+
+.picture {
+  position: absolute;
+  top: 480px;
+  left: 1010px;
+  background-color: #1990ff;
+}
+img#pic1 {
+  position: relative;
+  width: 274px;
+  height: auto;
+  margin: 20px;
+}
+
+
+

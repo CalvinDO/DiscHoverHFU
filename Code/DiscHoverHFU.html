@@ -1,0 +1,115 @@
+<!doctype html>
+<!--
+Copyright 2018 The Immersive Web Community Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+  <meta name='mobile-web-app-capable' content='yes'>
+  <meta name='apple-mobile-web-app-capable' content='yes'>
+  <link rel='icon' type='image/png' sizes='32x32' href='favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='favicon-96x96.png'>
+  <link rel='stylesheet' href='css/common.css'>
+  <link rel='stylesheet' href='css/off-canvas.css'>
+  <script src="../Vector.js"></script>
+  <script src="../Vector3D.js"></script>
+  <script src="../Vector4D.js"></script>
+  <script src="../Matrix4D.js"></script>
+  <script src="Gebäude.js"></script>
+  <script src="GameState.js"></script>
+
+  <title>DiscHoverHFU</title>
+</head>
+
+<body>
+  <!--
+  <audio id="MouseDown">
+    <source src="media/sound/MouseClicks/down.mp3" type="audio/mp3">
+  </audio>
+  <audio id="MouseUp">
+    <source src="media/sound/MouseClicks/up.mp3" type="audio/mp3">
+  </audio>
+  -->
+  <audio id="objectSound">
+    <source src="" type="audio/mp3">
+  </audio>
+
+  <header>
+    <div class="sidemenu">
+      <a href="#" id="start">
+        <div class="start">
+          <img id="img" src="../images/start-button.png" alt="star-button">
+
+        </div>
+      </a>
+
+      <a href="startmenu.html" id="startMenu">
+        <div class="home">
+          <img id="img" src="../images/browser2.png" alt="home.icon">
+        </div>
+      </a>
+
+      <a href="OpenStreetMap.html" id="map">
+        <div class="map">
+          <img id="img" src="../images/gps2.png" alt="gps-sign">
+
+        </div>
+      </a>
+
+      <a href="rooms.html" id="rooms">
+        <div class="rooms">
+          <img id="img" src="css/images/door.png" alt="hammer-icon">
+
+        </div>
+      </a>
+
+      <a href="options.html" id="options">
+        <div class="options">
+          <img id="img" src="../images/gear.png" alt="gear-icon">
+        </div>
+      </a>
+      <p id="completionDisplay">
+        2
+      </p>
+    </div>
+  </header>
+
+  <script src="Main.js" type="module"></script>
+  <p id="pointer" class="normal-pointer">
+    o
+  </p>
+  <div id="descriptionDisplay" class="invisible">
+    <h2>
+
+    </h2>
+
+  </div>
+  <!--
+  <div class="overlay">
+    <a href="off-canvas.html">
+      <div class="pause"></div>
+    </a>
+  </div>
+-->
+</body>
+
+</html>

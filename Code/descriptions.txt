@@ -1,0 +1,8 @@
+"Das Videolabor wird von Professor Hottong geleitet. ~Machen wir Bilder für Bienen? Nein! Machen wir Bilder für Schweine? Nein! Machen wir Bilder für Menschen? Jaaa RRRRRIIISSSSCCCCCHHHHTTIIIISSSCCHHH!!!!",
+
+"Diese Broadcast-Kamera ist mit einem CMOS-Sensor(Compelementary Metalloxide Semiconductor) ausgestattet. Im Gegensatz zum CCD-Sensor (Charge-coupled Device) wird das Ladungsbild nicht schrittweise verschoben und dann ausgelesen, sondern durch Transistoren, die sich unmittelbar hinter jedem Pixel befinden, direkt in Spannung umgesetzt und ausgelesen werden"
+
+
+"Das Spiellabor ist ein von Professor Jirka Dell'Oro-Friedl entwickelter Ort zum entwickeln, konzipieren, und Spielen von analogen oder digitalen Games",
+
+"Die Oculus Rift ist ein Virtual Reality-Headset, das von Oculus VR entwickelt wird. Die ursprüngliche Idee zur Oculus Rift stammte von Palmer Luckey, einem Designer am Institute for Creative Technologies an der University of Southern California. Da sich herkömmliche VR-Brillen aufgrund technischer Einschränkungen als untauglich für Computerspiele erwiesen, entwarf Luckey im Jahr 2012 einen ersten Prototyp",

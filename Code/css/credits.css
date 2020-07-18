@@ -1,0 +1,170 @@
+body {
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    font: 1rem/1.4 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+
+  .logo {
+    background-image: url(images/logo.png);
+    opacity: 47%;
+    position: absolute;
+    bottom: -43px;
+    left: -40px;
+    width: 295px;
+    height: 275px;
+    background-repeat: no-repeat;
+  }
+
+  .credits {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/open-menu2.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+  }
+
+  .credits:hover{
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/open-menu2.png);
+    background-size: 100px;
+    background-position: 261px 9px;
+    background-repeat: no-repeat;
+    box-shadow: -5px 10px 15px grey;
+
+  }
+
+  .home {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/browser2.png);
+    background-size: 80px;
+    background-position: 11px 10px;
+    background-repeat: no-repeat;
+}
+  
+  .home:hover {
+    background-color: #1990ff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    opacity: 67%;
+    background-image: url(images/browser2.png);
+    background-size: 80px;
+    background-position: 11px 10px;
+    background-repeat: no-repeat;
+    box-shadow: -1px 10px 15px grey;
+
+  }
+
+  .calvin {
+    position: absolute;
+    background-color: #1990ff;
+    height: 180px;
+    width: 680px;
+    opacity: 67%;
+    left: 630px;
+    top: 210px;
+}
+
+.ermir {
+    position: absolute;
+    background-color: #1990ff;
+    height: 180px;
+    width: 680px;
+    opacity: 67%;
+    left: 630px;
+    top: 260px;
+}
+
+.manu {
+  position: absolute;
+  background-color: #1990ff;
+  height: 180px;
+  width: 680px;
+  opacity: 67%;
+  left: 630px;
+  top: 400px;
+}
+
+    .picture {
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        background-color: #1990ff;
+        left: -190px;
+    }
+
+    #image {
+        width: 180px;
+        height: 180px;
+    }
+
+  h1 {
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 43px;
+      font-weight: lighter;
+      position: absolute;
+      left: 30px;
+      top: -27px;
+  }
+
+  h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: lighter;
+    margin-left: 29px;
+    top: -38px;
+    position: relative;
+}
+
+h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
+    margin-left: 29px;
+    top: -32px;
+    position: relative;
+}
+
+h4 {
+    color: white;
+    font-weight: 435;
+    position: absolute;
+    top: 108px;
+    left: 10px;
+    font-size: 24px;
+}
+
+
+p {
+  position: absolute;
+  top: 40px;
+  width: 90%;
+  left: 30px;
+  color: white;
+  font-size: 14px;
+}
+

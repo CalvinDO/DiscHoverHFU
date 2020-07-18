@@ -1,0 +1,141 @@
+body {
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    font: 1rem/1.4 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+}
+
+#completionDisplay {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 370px;
+    top: 510px;
+    width: 80px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#img {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    left: 60px;
+    top: 70px;
+}
+
+.start {
+    position: absolute;
+    left: 0px;
+    top: -8px;
+    background-color: #384fff;
+    opacity: 55%;
+    width: 310px;
+    height: 216px;
+}
+
+.start:hover {
+    position: absolute;
+    left: 40px;
+    top: -8px;
+    background-color: #384fff;
+    opacity: 90%;
+    width: 310px;
+    height: 216px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.home {
+    position: absolute;
+    left: 0px;
+    top: 208px;
+    background-color: #0008ff;
+    opacity: 55%;
+    width: 310px;
+    height: 216px;
+}
+
+.home:hover {
+    position: absolute;
+    left: 40px;
+    top: 208px;
+    background-color: #0008ff;
+    opacity: 90%;
+    width: 310px;
+    height: 216px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.map {
+    position: absolute;
+    left: 0px;
+    top: 424px;
+    background-color: #668fff;
+    opacity: 55%;
+    width: 310px;
+    height: 216px;
+}
+
+.map:hover {
+    position: absolute;
+    left: 40px;
+    top: 424px;
+    background-color: #668fff;
+    opacity: 90%;
+    width: 310px;
+    height: 216px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.rooms {
+    position: absolute;
+    left: 0px;
+    top: 640px;
+    background-color: #1990ff;
+    opacity: 55%;
+    width: 310px;
+    height: 216px;
+}
+
+.rooms:hover {
+    position: absolute;
+    left: 40px;
+    top: 640px;
+    background-color: #1990ff;
+    box-shadow: 10px 10px 15px grey;
+    opacity: 90%;
+    width: 310px;
+    height: 216px;
+}
+
+.options {
+    position: absolute;
+    left: 0px;
+    top: 856px;
+    background-color: #006cd0;
+    opacity: 55%;
+    width: 310px;
+    height: 216px;
+}
+
+.options:hover {
+    position: absolute;
+    left: 40px;
+    top: 856px;
+    background-color: #006cd0;
+    opacity: 90%;
+    width: 310px;
+    height: 216px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+#off-canvas {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 0px;
+}
